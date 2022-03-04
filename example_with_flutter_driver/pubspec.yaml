@@ -15,7 +15,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_gherkin:
+  flutter_gherkin_integration:
     path: ../
 
 flutter:

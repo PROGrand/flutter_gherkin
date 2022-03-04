@@ -1,5 +1,5 @@
 import 'dart:async';
-import 'package:flutter_gherkin/flutter_gherkin_with_driver.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin_with_driver.dart';
 import 'package:gherkin/gherkin.dart';
 
 Future<void> main() {

@@ -74,7 +74,7 @@ Scenario: User can increment the counter
 ```
 6. Add the following file (and folder) `integration_test\gherkin_suite_test.dart`.  Notice the attribute `@GherkinTestSuite()` this indicates to the code generator to create a partial file for this file with the generated Gherkin tests in `part 'gherkin_suite_test.g.dart';`.  Don't worry about the initial errors as this will disappear when the tests are generated.
 ```dart
-import 'package:flutter_gherkin/flutter_gherkin_integration_test.dart'; // notice new import name
+import 'package:flutter_gherkin_integration/flutter_gherkin_integration_test.dart'; // notice new import name
 import 'package:flutter_test/flutter_test.dart';
 import 'package:gherkin/gherkin.dart';
 
@@ -244,7 +244,7 @@ This library has a couple of built in step definitions for convenience.  The fir
 
 ``` dart
 import 'package:flutter_driver/flutter_driver.dart';
-import 'package:flutter_gherkin/flutter_gherkin.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin.dart';
 import 'package:gherkin/gherkin.dart';
 
 StepDefinitionGeneric TapButtonNTimesStep() {
@@ -275,7 +275,7 @@ Now that we have a testable app, a feature file and a custom step definition we 
 
 ``` dart
 import 'dart:async';
-import 'package:flutter_gherkin/flutter_gherkin.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin.dart';
 import 'package:gherkin/gherkin.dart';
 import 'hooks/hook_example.dart';
 import 'steps/colour_parameter.dart';
@@ -342,7 +342,7 @@ Place instances of any custom step definition classes `Given` , `Then` , `When` 
 
 ``` dart
 import 'dart:async';
-import 'package:flutter_gherkin/flutter_gherkin.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin.dart';
 import 'package:gherkin/gherkin.dart';
 import 'steps/given_I_pick_a_colour_step.dart';
 import 'steps/tap_button_n_times_step.dart';
@@ -404,7 +404,7 @@ Place instances of any custom step parameters that you have defined.  These will
 
 ``` dart
 import 'dart:async';
-import 'package:flutter_gherkin/flutter_gherkin.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin.dart';
 import 'package:gherkin/gherkin.dart';
 import 'steps/given_I_pick_a_colour_step.dart';
 import 'steps/tap_button_n_times_step.dart';
@@ -454,7 +454,7 @@ To take a screenshot on a step failing you can used the pre-defined hook `Attach
 
 ``` dart
 import 'dart:async';
-import 'package:flutter_gherkin/flutter_gherkin.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin.dart';
 import 'package:gherkin/gherkin.dart';
 import 'hooks/hook_example.dart';
 import 'steps/colour_parameter.dart';
@@ -493,7 +493,7 @@ You should provide at least one reporter in the configuration otherwise it'll be
 
 ``` dart
 import 'dart:async';
-import 'package:flutter_gherkin/flutter_gherkin.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin.dart';
 import 'steps/colour_parameter.dart';
 import 'steps/given_I_pick_a_colour_step.dart';
 import 'steps/tap_button_n_times_step.dart';
@@ -519,7 +519,7 @@ While it is not recommended so share state between steps within the same scenari
 
 ``` dart
 import 'dart:async';
-import 'package:flutter_gherkin/flutter_gherkin.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin.dart';
 import 'steps/given_I_pick_a_colour_step.dart';
 import 'steps/tap_button_n_times_step.dart';
 
@@ -703,7 +703,7 @@ For example, the below sets the step's timeout to 10 seconds.
 
 ``` dart
 import 'package:flutter_driver/flutter_driver.dart';
-import 'package:flutter_gherkin/flutter_gherkin.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin.dart';
 import 'package:gherkin/gherkin.dart';
 
 StepDefinitionGeneric TapButtonNTimesStep() {
@@ -973,7 +973,7 @@ Finally ensure the hook is added to the hook collection in your configuration fi
 
 ``` dart
 import 'dart:async';
-import 'package:flutter_gherkin/flutter_gherkin.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin.dart';
 import 'package:gherkin/gherkin.dart';
 import 'hooks/hook_example.dart';
 import 'steps/given_I_pick_a_colour_step.dart';
@@ -1150,7 +1150,7 @@ To run the gherkin tests, first update the `test_driver/app_test.dart` to someth
 ```
 import 'dart:async';
 import 'dart:io';
-import 'package:flutter_gherkin/flutter_gherkin.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin.dart';
 import 'package:gherkin/gherkin.dart';
 Future<void> main(List<String> args) async {
 if (args.isEmpty) {

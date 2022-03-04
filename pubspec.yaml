@@ -1,11 +1,11 @@
-name: flutter_gherkin
-description: A Gherkin / Cucumber parser and test runner for Dart and Flutter
-version: 3.0.0-rc.9
-homepage: https://github.com/jonsamwell/flutter_gherkin
+name: flutter_gherkin_integration
+description: A Gherkin / Cucumber parser and test runner for Dart and Flutter forked from flutter_gherkin integration_test__package_support branch
+version: 0.0.1-rc.1
+homepage: https://github.com/PROGrand/flutter_gherkin
 
 environment:
-  sdk: '>=2.12.3 <3.0.0'
-  flutter: ">=2.2.0"
+  sdk: '>=2.14.2 <3.0.0'
+  flutter: ">=2.5.2"
 
 dependencies:
   flutter:
@@ -22,11 +22,11 @@ dependencies:
   source_gen: ^1.1.1
   build: ^2.1.1
   glob: ^2.0.2
-  # gherkin:
-    # path: ../dart_gherkin
+    # gherkin:
+  # path: ../dart_gherkin
 
 dev_dependencies:
-  meta: ^1.7.0 
+  meta: ^1.7.0
   pedantic: ^1.11.1
   build_config: ^1.0.0
 

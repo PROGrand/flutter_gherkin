@@ -1,5 +1,5 @@
-import 'package:flutter_gherkin/flutter_gherkin.dart';
-import 'package:flutter_gherkin/src/flutter/world/flutter_world.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin.dart';
+import 'package:flutter_gherkin_integration/src/flutter/world/flutter_world.dart';
 import 'package:gherkin/gherkin.dart';
 
 import '../parameters/swipe_direction_parameter.dart';

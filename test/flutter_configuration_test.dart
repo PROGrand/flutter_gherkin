@@ -1,5 +1,5 @@
-import 'package:flutter_gherkin/flutter_gherkin_with_driver.dart';
-import 'package:flutter_gherkin/src/flutter/hooks/app_runner_hook.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin_with_driver.dart';
+import 'package:flutter_gherkin_integration/src/flutter/hooks/app_runner_hook.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'mocks/parameter_mock.dart';
 import 'mocks/step_definition_mock.dart';

@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:build/src/builder/build_step.dart';
 import 'package:analyzer/dart/element/element.dart';
-import 'package:flutter_gherkin/src/flutter/code_generation/annotations/gherkin_full_test_suite_annotation.dart';
+import 'package:flutter_gherkin_integration/src/flutter/code_generation/annotations/gherkin_full_test_suite_annotation.dart';
 import 'package:gherkin/gherkin.dart';
 import 'package:glob/glob.dart';
 import 'package:glob/list_local_fs.dart';

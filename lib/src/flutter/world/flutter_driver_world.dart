@@ -1,5 +1,5 @@
 import 'package:flutter_driver/flutter_driver.dart';
-import 'package:flutter_gherkin/flutter_gherkin_with_driver.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin_with_driver.dart';
 
 import '../runners/flutter_run_process_handler.dart';
 

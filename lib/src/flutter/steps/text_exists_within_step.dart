@@ -1,5 +1,5 @@
-import 'package:flutter_gherkin/flutter_gherkin.dart';
-import 'package:flutter_gherkin/src/flutter/adapters/app_driver_adapter.dart';
+import 'package:flutter_gherkin_integration/flutter_gherkin.dart';
+import 'package:flutter_gherkin_integration/src/flutter/adapters/app_driver_adapter.dart';
 import 'package:gherkin/gherkin.dart';
 
 import '../parameters/existence_parameter.dart';
