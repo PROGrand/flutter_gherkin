@@ -1,7 +1,7 @@
 name: flutter_gherkin_integration
 description: A Gherkin / Cucumber parser and test runner for Dart and Flutter forked from flutter_gherkin integration_test__package_support branch
-version: 0.0.1-rc.1
-homepage: https://github.com/PROGrand/flutter_gherkin
+version: 0.0.1-rc.2
+homepage: https://github.com/PROGrand/flutter_gherkin_interation
 
 environment:
   sdk: '>=2.14.2 <3.0.0'
@@ -16,7 +16,7 @@ dependencies:
     sdk: flutter
   flutter_driver:
     sdk: flutter
-  analyzer: ">=1.7.1 <3.0.0"
+  analyzer: ">=0.39.12"
   collection: ^1.15.0
   gherkin: ^2.0.8
   source_gen: ^1.1.1
