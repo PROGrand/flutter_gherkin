@@ -4,6 +4,8 @@
 
 # flutter_gherkin
 
+## forked from flutter_gherkin integration_test__package_support branch
+
 A fully featured Gherkin parser and test runner.  Works with Flutter and Dart 2.
 
 This implementation of the Gherkin tries to follow as closely as possible other implementations of Gherkin and specifically [Cucumber](https://docs.cucumber.io/cucumber/) in it's various forms.
