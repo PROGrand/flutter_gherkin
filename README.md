@@ -2,7 +2,7 @@
    <img alt="Awesome Flutter" src="https://img.shields.io/badge/Awesome-Flutter-blue.svg?longCache=true&style=flat-square" />
 </a>
 
-# flutter_gherkin
+# flutter_gherkin_integration
 
 ## forked from flutter_gherkin integration_test__package_support branch
 
